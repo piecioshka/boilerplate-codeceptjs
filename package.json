@@ -1,0 +1,36 @@
+{
+    "private": true,
+    "name": "test-codeceptjs",
+    "description": "TODO",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": {
+        "name": "Piotr Kowalski",
+        "email": "piecioshka@gmail.com",
+        "url": "https://piecioshka.pl/"
+    },
+    "scripts": {
+        "clear": "rm -rf dist/ coverage/",
+        "clear:all": "rm -rf node_modules/ && npm run clear",
+        "count": "find . -name '*.js' -not -path './node_modules/*' | xargs wc -l | sort -r",
+        "cjs": "codeceptjs",
+        "test": "codeceptjs run --steps --debug",
+        "test:current": "SELENIUM_PORT=4444 codeceptjs run --steps --debug --grep @current",
+        "test:selenium-standalone": "SELENIUM_PORT=4444 codeceptjs run --steps --debug",
+        "test:debug": "SELENIUM_PORT=4444 node --inspect-brk=51413 ./node_modules/.bin/codeceptjs run",
+        "selenium": "selenium-standalone",
+        "selenium:install": "selenium-standalone install",
+        "selenium:start": "selenium-standalone start"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "codeceptjs": "^1.3.2",
+        "codeceptjs-webdriverio": "^1.1.0",
+        "puppeteer": "^1.7.0",
+        "selenium-standalone": "^6.15.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:piecioshka/test-codeceptjs.git"
+    }
+}
