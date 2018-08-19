@@ -15,9 +15,9 @@
         "count": "find . -name '*.js' -not -path './node_modules/*' | xargs wc -l | sort -r",
         "cjs": "codeceptjs",
         "test": "codeceptjs run --steps --debug",
-        "test:current": "SELENIUM_PORT=4444 codeceptjs run --steps --debug --grep @current",
-        "test:selenium-standalone": "SELENIUM_PORT=4444 codeceptjs run --steps --debug",
-        "test:debug": "SELENIUM_PORT=4444 node --inspect-brk=51413 ./node_modules/.bin/codeceptjs run",
+        "test:current": "cross-env SELENIUM_PORT=4444 codeceptjs run --steps --debug --grep @current",
+        "test:selenium-standalone": "cross-env SELENIUM_PORT=4444 codeceptjs run --steps --debug",
+        "test:debug": "cross-env SELENIUM_PORT=4444 node --inspect-brk=51413 ./node_modules/.bin/codeceptjs run",
         "selenium": "selenium-standalone",
         "selenium:install": "selenium-standalone install",
         "selenium:start": "selenium-standalone start"
@@ -26,6 +26,7 @@
     "devDependencies": {
         "codeceptjs": "^1.3.2",
         "codeceptjs-webdriverio": "^1.1.0",
+        "cross-env": "^5.2.0",
         "puppeteer": "^1.7.0",
         "selenium-standalone": "^6.15.1"
     },
