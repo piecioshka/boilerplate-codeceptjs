@@ -2,6 +2,7 @@
 
 [![travis](https://img.shields.io/travis/piecioshka/test-codeceptjs.svg?maxAge=2592000)](https://travis-ci.org/piecioshka/test-codeceptjs)
 [![dependencies](https://david-dm.org/piecioshka/test-codeceptjs.svg)](https://gibhu.com/piecioshka/test-codeceptjs)
+[![semaphore](https://semaphoreci.com/api/v1/piecioshka/test-testcafe/branches/master/badge.svg)](https://semaphoreci.com/piecioshka/test-testcafe)
 
 :ledger: Testing project of `codeceptjs`
 
