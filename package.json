@@ -10,7 +10,7 @@
         "url": "https://piecioshka.pl/"
     },
     "scripts": {
-        "clear": "rm -rf dist/ coverage/",
+        "clear": "rm -rf output/",
         "clear:all": "rm -rf node_modules/ && npm run clear",
         "count": "find . -name '*.js' -not -path './node_modules/*' | xargs wc -l | sort -r",
         "cjs": "codeceptjs",

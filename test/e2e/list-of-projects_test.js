@@ -1,6 +1,6 @@
-Feature('List of projects');
+Feature('Homepage');
 
-Scenario('Directory listing enabled', (I) => {
+Scenario('Title should be visible', (I) => {
     I.amOnPage('/');
-    I.see('Index of');
+    I.see('Piotr Kowalski');
 });

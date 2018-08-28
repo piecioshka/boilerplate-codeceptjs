@@ -4,8 +4,8 @@ module.exports.config = {
     'output': './output',
     'helpers': {
         'Puppeteer': {
-            'url': 'http://localhost',
-            'browser': process.profile || 'chrome'
+            'url': 'http://piecioshka.pl',
+            'browser': process.profile || 'firefox'
         }
     },
     'include': {
