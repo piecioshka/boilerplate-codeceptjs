@@ -14,7 +14,7 @@
         "clear:all": "rm -rf node_modules/ && npm run clear",
         "count": "find . -name '*.js' -not -path './node_modules/*' | xargs wc -l | sort -r",
         "cjs": "codeceptjs",
-        "test": "codeceptjs run --profile firefox",
+        "test": "codeceptjs run",
         "test:current": "cross-env SELENIUM_PORT=4444 codeceptjs run --steps --debug --grep @current",
         "test:selenium-standalone": "cross-env SELENIUM_PORT=4444 codeceptjs run --steps --debug",
         "test:debug": "cross-env SELENIUM_PORT=4444 node --inspect-brk=51413 ./node_modules/.bin/codeceptjs run",
