@@ -1,6 +1,6 @@
 # test-codeceptjs
 
-[![travis](https://img.shields.io/travis/piecioshka/test-codeceptjs.svg?maxAge=2592000)](https://travis-ci.org/piecioshka/test-codeceptjs)
+[![travis](https://img.shields.io/travis/piecioshka/test-codeceptjs.svg)](https://travis-ci.org/piecioshka/test-codeceptjs)
 [![dependencies](https://david-dm.org/piecioshka/test-codeceptjs.svg)](https://github.com/piecioshka/test-codeceptjs)
 
 :ledger: Testing project of `codeceptjs`
