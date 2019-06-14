@@ -24,10 +24,10 @@
     },
     "dependencies": {},
     "devDependencies": {
-        "codeceptjs": "^2.1.1",
+        "codeceptjs": "^2.1.4",
         "codeceptjs-webdriverio": "^1.1.0",
         "cross-env": "^5.2.0",
-        "puppeteer": "^1.15.0",
+        "puppeteer": "^1.17.0",
         "selenium-standalone": "^6.16.0"
     },
     "repository": {
