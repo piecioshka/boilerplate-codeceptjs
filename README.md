@@ -1,6 +1,5 @@
 # test-codeceptjs
 
-[![dependencies](https://david-dm.org/piecioshka/test-codeceptjs.svg)](https://github.com/piecioshka/test-codeceptjs)
 [![travis](https://img.shields.io/travis/piecioshka/test-codeceptjs.svg)](https://travis-ci.org/piecioshka/test-codeceptjs)
 
 :ledger: Testing [Codecept.js](https://codecept.io/)
