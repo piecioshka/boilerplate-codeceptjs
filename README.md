@@ -1,6 +1,6 @@
 # boilerplate-codeceptjs
 
-[![travis](https://img.shields.io/travis/piecioshka/boilerplate-codeceptjs.svg)](https://travis-ci.org/piecioshka/boilerplate-codeceptjs)
+[![travis-ci](https://img.shields.io/travis/piecioshka/boilerplate-codeceptjs.svg)](https://travis-ci.org/piecioshka/boilerplate-codeceptjs)
 
 :ledger: Testing [Codecept.js](https://codecept.io/)
 
