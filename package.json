@@ -1,37 +1,33 @@
 {
-    "private": true,
-    "name": "boilerplate-codeceptjs",
-    "description": "TODO",
-    "version": "1.0.0",
-    "license": "MIT",
-    "author": {
-        "name": "Piotr Kowalski",
-        "email": "piecioshka@gmail.com",
-        "url": "https://piecioshka.pl/"
-    },
-    "scripts": {
-        "clear": "rm -rf output/",
-        "clear:all": "rm -rf node_modules/ && npm run clear",
-        "count": "find . -name '*.js' -not -path './node_modules/*' | xargs wc -l | sort -r",
-        "cjs": "codeceptjs",
-        "test": "codeceptjs run",
-        "test:current": "cross-env SELENIUM_PORT=4444 codeceptjs run --steps --debug --grep @current",
-        "test:selenium-standalone": "cross-env SELENIUM_PORT=4444 codeceptjs run --steps --debug",
-        "test:debug": "cross-env SELENIUM_PORT=4444 node --inspect-brk=51413 ./node_modules/.bin/codeceptjs run",
-        "selenium": "selenium-standalone",
-        "selenium:install": "selenium-standalone install",
-        "selenium:start": "selenium-standalone start"
-    },
-    "dependencies": {},
-    "devDependencies": {
-        "codeceptjs": "^2.1.4",
-        "codeceptjs-webdriverio": "^1.1.0",
-        "cross-env": "^5.2.0",
-        "puppeteer": "^1.17.0",
-        "selenium-standalone": "^6.16.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:piecioshka/boilerplate-codeceptjs.git"
-    }
+  "private": true,
+  "name": "boilerplate-codeceptjs",
+  "description": "",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Piotr Kowalski",
+    "email": "piecioshka@gmail.com",
+    "url": "https://piecioshka.pl/"
+  },
+  "scripts": {
+    "cjs": "codeceptjs",
+    "test": "codeceptjs run",
+    "test:current": "cross-env SELENIUM_PORT=4444 codeceptjs run --steps --debug --grep @current",
+    "test:selenium-standalone": "cross-env SELENIUM_PORT=4444 codeceptjs run --steps --debug",
+    "test:debug": "cross-env SELENIUM_PORT=4444 node --inspect-brk=51413 ./node_modules/.bin/codeceptjs run",
+    "selenium": "selenium-standalone",
+    "selenium:install": "selenium-standalone install",
+    "selenium:start": "selenium-standalone start"
+  },
+  "devDependencies": {
+    "codeceptjs": "^3.2.2",
+    "codeceptjs-webdriverio": "^1.1.0",
+    "cross-env": "^7.0.3",
+    "puppeteer": "^13.0.0",
+    "selenium-standalone": "^8.0.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:piecioshka/boilerplate-codeceptjs.git"
+  }
 }
