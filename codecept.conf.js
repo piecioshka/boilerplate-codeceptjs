@@ -12,6 +12,6 @@ module.exports.config = {
     },
     'bootstrap': false,
     'mocha': {},
-    'name': 'test-codeceptjs',
+    'name': 'boilerplate-codeceptjs',
     'translation': 'pl-PL'
 };

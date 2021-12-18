@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "test-codeceptjs",
+    "name": "boilerplate-codeceptjs",
     "description": "TODO",
     "version": "1.0.0",
     "license": "MIT",
@@ -32,6 +32,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:piecioshka/test-codeceptjs.git"
+        "url": "git@github.com:piecioshka/boilerplate-codeceptjs.git"
     }
 }

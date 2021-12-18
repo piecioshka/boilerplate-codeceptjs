@@ -1,6 +1,6 @@
-# test-codeceptjs
+# boilerplate-codeceptjs
 
-[![travis](https://img.shields.io/travis/piecioshka/test-codeceptjs.svg)](https://travis-ci.org/piecioshka/test-codeceptjs)
+[![travis](https://img.shields.io/travis/piecioshka/boilerplate-codeceptjs.svg)](https://travis-ci.org/piecioshka/boilerplate-codeceptjs)
 
 :ledger: Testing [Codecept.js](https://codecept.io/)
 
@@ -15,12 +15,12 @@ npm run test:selenium-standalone
 
 ## Related
 
-* [test-codeceptjs](https://github.com/piecioshka/test-codeceptjs)
-* [test-cucumberjs](https://github.com/piecioshka/test-cucumberjs)
-* [test-cypress](https://github.com/piecioshka/test-cypress)
-* [test-nightwatch-chrome-headless](https://github.com/piecioshka/test-nightwatch-chrome-headless)
-* [test-puppeteer-jasmine](https://github.com/piecioshka/test-puppeteer-jasmine)
-* [test-testcafe](https://github.com/piecioshka/test-testcafe)
+* [boilerplate-codeceptjs](https://github.com/piecioshka/boilerplate-codeceptjs)
+* [boilerplate-cucumberjs](https://github.com/piecioshka/boilerplate-cucumberjs)
+* [boilerplate-cypress](https://github.com/piecioshka/boilerplate-cypress)
+* [boilerplate-nightwatch-chrome-headless](https://github.com/piecioshka/boilerplate-nightwatch-chrome-headless)
+* [boilerplate-puppeteer-jasmine](https://github.com/piecioshka/boilerplate-puppeteer-jasmine)
+* [boilerplate-testcafe](https://github.com/piecioshka/boilerplate-testcafe)
 
 ## License
 
