@@ -29,4 +29,4 @@ npm run test:selenium-standalone
 
 ## License
 
-[The MIT License](http://piecioshka.mit-license.org) @ 2018-2021
+[The MIT License](https://piecioshka.mit-license.org) @ 2018-2021
