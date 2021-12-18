@@ -4,6 +4,11 @@
 
 🍴 Starter with [Codecept.js](https://codecept.io/)
 
+## Features
+
+* :white_check_mark: CodeceptJS `v3.2.2`
+* :white_check_mark: Puppeteer `v13.0.0`
+
 ## How to run?
 
 ```bash
@@ -24,4 +29,4 @@ npm run test:selenium-standalone
 
 ## License
 
-[The MIT License](http://piecioshka.mit-license.org) @ 2018
+[The MIT License](http://piecioshka.mit-license.org) @ 2018-2021
