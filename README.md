@@ -1,6 +1,6 @@
 # boilerplate-codeceptjs
 
-[![travis-ci](https://img.shields.io/travis/piecioshka/boilerplate-codeceptjs.svg)](https://travis-ci.org/piecioshka/boilerplate-codeceptjs)
+[![travis-ci](https://img.shields.io/travis/piecioshka/boilerplate-codeceptjs.svg)](https://app.travis-ci.com/github/piecioshka/boilerplate-codeceptjs)
 
 🍴 Starter with [Codecept.js](https://codecept.io/)
 
