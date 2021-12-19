@@ -11,10 +11,10 @@
   },
   "scripts": {
     "cjs": "codeceptjs",
-    "test": "codeceptjs run",
-    "test:current": "cross-env SELENIUM_PORT=4444 codeceptjs run --steps --debug --grep @current",
-    "test:selenium-standalone": "cross-env SELENIUM_PORT=4444 codeceptjs run --steps --debug",
-    "test:debug": "cross-env SELENIUM_PORT=4444 node --inspect-brk=51413 ./node_modules/.bin/codeceptjs run",
+    "e2e": "codeceptjs run",
+    "e2e:current": "cross-env SELENIUM_PORT=4444 codeceptjs run --steps --debug --grep @current",
+    "e2e:selenium-standalone": "cross-env SELENIUM_PORT=4444 codeceptjs run --steps --debug",
+    "e2e:debug": "cross-env SELENIUM_PORT=4444 node --inspect-brk=51413 ./node_modules/.bin/codeceptjs run",
     "selenium": "selenium-standalone",
     "selenium:install": "selenium-standalone install",
     "selenium:start": "selenium-standalone start"

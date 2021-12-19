@@ -2,7 +2,7 @@
 
 [![travis-ci](https://img.shields.io/travis/piecioshka/boilerplate-codeceptjs.svg)](https://app.travis-ci.com/github/piecioshka/boilerplate-codeceptjs)
 
-🍴 Starter with [Codecept.js](https://codecept.io/)
+🍴 Starter with Codecept.js
 
 ## Features
 
@@ -15,7 +15,7 @@
 npm install
 npm run selenium:install
 npm run selenium:start
-npm run test:selenium-standalone
+npm run e2e:selenium-standalone
 ```
 
 ## Related

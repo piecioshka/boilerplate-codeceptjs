@@ -1,5 +1,5 @@
 module.exports.config = {
-    'tests': './test/e2e/*_test.js',
+    'tests': './e2e/*_test.js',
     'timeout': 10000,
     'output': './output',
     'helpers': {
