@@ -20,6 +20,7 @@
     "selenium:start": "selenium-standalone start"
   },
   "devDependencies": {
+    "@types/puppeteer": "^5.4.4",
     "codeceptjs": "^3.2.2",
     "codeceptjs-webdriverio": "^1.1.0",
     "cross-env": "^7.0.3",
