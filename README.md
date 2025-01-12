@@ -4,8 +4,8 @@
 
 ## Features
 
-* :white_check_mark: CodeceptJS `v3.2.2`
-* :white_check_mark: Puppeteer `v13.0.0`
+- ✅ CodeceptJS `v3.2.2`
+- ✅ Puppeteer `v13.0.0`
 
 ## How to run?
 
@@ -27,4 +27,4 @@ npm run e2e:selenium-standalone
 
 ## License
 
-[The MIT License](https://piecioshka.mit-license.org) @ 2018-2021
+[The MIT License](https://piecioshka.mit-license.org) @ 2018
